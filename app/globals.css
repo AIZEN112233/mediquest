@@ -1,0 +1,40 @@
+@import '@unocss/reset/tailwind.css';
+@unocss all;
+
+/* * {
+    outline-color: red;
+    outline-width: 1px;
+    outline-style: dashed;
+} */
+
+.page-wrapper {
+    min-height: calc(100vh - 80px);
+}
+
+.pg {
+    height: calc(100vh - 80px);
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #999;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #75DAB4;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #69e9b8;
+}
+
+::selection {
+    background: #75DAB4;
+}
