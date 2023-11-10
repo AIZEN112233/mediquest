@@ -15,7 +15,10 @@
     "react-icons": "^4.11.0"
   },
   "devDependencies": {
+    "@types/node": "20.9.0",
+    "@types/react": "18.2.37",
     "@unocss/postcss": "^0.56.5",
+    "typescript": "5.2.2",
     "unocss": "^0.56.5"
   }
 }

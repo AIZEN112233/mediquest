@@ -4,9 +4,9 @@ import PageWrapepr from "@/components/containers/PageWrapepr";
 import { redirect } from "next/navigation";
 
 export default function RootLayout({ children }) {
-    if (localStorage.getItem("token")) {
-        return redirect("/");
-    }
+    // if (localStorage.getItem("token")) {
+    //     return redirect("/");
+    // }
     const width = window.innerWidth;
     return (
         <PageWrapepr
