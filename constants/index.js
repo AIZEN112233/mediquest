@@ -6,7 +6,7 @@ export const navLinks = [
     },
     {
         title: "Exams",
-        path: "/topics/exam",
+        path: "/topics/exams",
         styles: "",
     },
     {

@@ -9,3 +9,5 @@ export const metadata = {
 export default function RootLayout({ children }) {
     return <main>{children}</main>;
 }
+
+//  TODO: make seperate container for checkboxes
